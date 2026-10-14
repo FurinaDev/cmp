@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İletişim — Çağdaş Müzik Platformu</title>
+  <link rel="icon" type="image/png" href="assets/images/logo-navy.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <span class="top-bar-tag">Bize Ulaşın</span>
+        <span>Çağdaş Müzik Platformu Genel Sekreterliği ve Koordinasyon</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="gonullu.html" class="top-bar-link">Ekibe Katıl</a>
+        <a href="admin/index.html" class="top-bar-link">Yönetim</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/images/logo-navy.png" alt="Çağdaş Müzik Platformu Logo">
+        <div class="brand-text">
+          <span class="brand-title">Çağdaş Müzik Platformu</span>
+          <span class="brand-subtitle">Bağımsız Kültür-Sanat Girişimi</span>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <div class="nav-item">
+          <a href="kurumsal.html" class="nav-link">
+            Kurumsal
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </a>
+          <div class="dropdown-menu">
+            <a href="kurumsal.html" class="dropdown-link"><span class="dropdown-link-title">Hakkımızda</span><span class="dropdown-link-desc">Platformun tanımı ve faaliyet alanları</span></a>
+            <a href="baskan.html" class="dropdown-link"><span class="dropdown-link-title">Ön Söz (Başkandan)</span><span class="dropdown-link-desc">Kuruluş felsefesi ve çağdaş vizyon</span></a>
+            <a href="degerlerimiz.html" class="dropdown-link"><span class="dropdown-link-title">Değerlerimiz</span><span class="dropdown-link-desc">12 temel etik ve kurumsal ilkemiz</span></a>
+            <a href="vizyon-misyon.html" class="dropdown-link"><span class="dropdown-link-title">Vizyon & Misyon</span><span class="dropdown-link-desc">Gelecek hedeflerimiz ve stratejimiz</span></a>
+          </div>
+        </div>
+        <div class="nav-item"><a href="ekibimiz.html" class="nav-link">Ekibimiz & Sanat Kurulu</a></div>
+        <div class="nav-item"><a href="etkinlikler.html" class="nav-link">Etkinlikler & Konserler</a></div>
+        <div class="nav-item"><a href="arsiv.html" class="nav-link">Dijital Arşiv</a></div>
+        <div class="nav-item"><a href="blog.html" class="nav-link">Blog & Düşünce</a></div>
+        <div class="nav-item"><a href="destekciler.html" class="nav-link">Destekçilerimiz</a></div>
+        <div class="nav-item"><a href="iletisim.html" class="nav-link active">İletişim</a></div>
+      </nav>
+
+      <div class="header-actions">
+        <a href="gonullu.html" class="btn btn-accent btn-sm">Gönüllümüz Ol</a>
+        <button class="mobile-menu-btn" aria-label="Menü">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div style="background:#FFFFFF; border-bottom:1px solid var(--border-subtle); padding:40px 0;">
+      <div class="container">
+        <span class="section-badge">Bağlantı & İletişim</span>
+        <h1 style="color:var(--navy-dark); font-size:2.1rem; margin-bottom:8px;">İletişim</h1>
+        <p style="color:var(--text-muted); font-size:15px; max-width:720px; margin:0;">
+          Etkinlikler, sanat kurulu başvuruları, kurumsal ortaklıklar ve basın talepleri için bizimle iletişime geçebilirsiniz.
+        </p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div style="display:grid; grid-template-columns:1.2fr 0.8fr; gap:40px;">
+          
+          <!-- İletişim Formu -->
+          <div class="card card-body" style="padding:32px;">
+            <h2 style="font-size:18px; color:var(--navy-dark); margin-bottom:6px;">Bize Mesaj Gönderin</h2>
+            <p style="font-size:13px; color:var(--text-muted); margin-bottom:20px;">Sorularınız ve iş birliği talepleriniz ilgili koordinasyon birimimize iletilecektir.</p>
+
+            <form id="contact-form">
+              <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+                <div class="form-group">
+                  <label class="form-label" for="contact-name">Ad Soyad <span class="req">*</span></label>
+                  <input type="text" id="contact-name" class="form-control" placeholder="Adınız Soyadınız" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="contact-email">E-posta <span class="req">*</span></label>
+                  <input type="email" id="contact-email" class="form-control" placeholder="eposta@alanadi.com" required>
+                </div>
+              </div>
+
+              <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+                <div class="form-group">
+                  <label class="form-label" for="contact-phone">Telefon</label>
+                  <input type="tel" id="contact-phone" class="form-control" placeholder="05xx xxx xx xx">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="contact-subject">Konu / İlgili Birim <span class="req">*</span></label>
+                  <select id="contact-subject" class="form-control" required>
+                    <option value="Genel Bilgi">Genel Bilgi & Sorular</option>
+                    <option value="Sanat Kurulu">Sanat Danışma Kurulu & Eser Başvurusu</option>
+                    <option value="Proje & Fon">Proje & Kaynak Geliştirme Ortaklığı</option>
+                    <option value="Basın">Basın & Medya İletişimi</option>
+                    <option value="Sponsorluk">Sponsorluk & İş Birliği</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contact-message">Mesajınız <span class="req">*</span></label>
+                <textarea id="contact-message" class="form-control" rows="5" placeholder="Mesajınızı detaylı olarak buraya yazınız..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">
+                Mesajı İlet &rarr;
+              </button>
+            </form>
+          </div>
+
+          <!-- Sağ Taraf: Kurumsal Kanallar & Sosyal Medya -->
+          <div>
+            <div class="card card-body" style="margin-bottom:24px;">
+              <h3 style="font-size:16px; color:var(--navy-dark); margin-bottom:14px;">Birim E-posta Adresleri</h3>
+              <ul style="list-style:none; font-size:13px; padding:0; margin:0;">
+                <li style="margin-bottom:12px; padding-bottom:10px; border-bottom:1px solid var(--border-subtle);">
+                  <div style="font-weight:700; color:var(--navy-dark);">Genel Koordinasyon</div>
+                  <a href="mailto:iletisim@cagdasmuzik.org" style="color:var(--orange-accent); font-weight:600;">iletisim@cagdasmuzik.org</a>
+                </li>
+                <li style="margin-bottom:12px; padding-bottom:10px; border-bottom:1px solid var(--border-subtle);">
+                  <div style="font-weight:700; color:var(--navy-dark);">Sanat Danışma Kurulu & Kürasyon</div>
+                  <a href="mailto:sanat@cagdasmuzik.org" style="color:var(--orange-accent); font-weight:600;">sanat@cagdasmuzik.org</a>
+                </li>
+                <li style="margin-bottom:12px; padding-bottom:10px; border-bottom:1px solid var(--border-subtle);">
+                  <div style="font-weight:700; color:var(--navy-dark);">Basın, Medya & Görsel İletişim</div>
+                  <a href="mailto:basin@cagdasmuzik.org" style="color:var(--orange-accent); font-weight:600;">basin@cagdasmuzik.org</a>
+                </li>
+                <li>
+                  <div style="font-weight:700; color:var(--navy-dark);">İnsan Kaynakları & Gönüllülük</div>
+                  <a href="mailto:ik@cagdasmuzik.org" style="color:var(--orange-accent); font-weight:600;">ik@cagdasmuzik.org</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="card card-body" style="margin-bottom:24px;">
+              <h3 style="font-size:15px; color:var(--navy-dark); margin-bottom:8px;">Resmi Sosyal Medya Kanalları</h3>
+              <p style="font-size:12.5px; color:var(--text-muted); margin-bottom:12px;">Güncel etkinlik duyuruları ve premier video kesitleri için bizi takip edin.</p>
+              <div style="display:flex; gap:10px;">
+                <a href="https://instagram.com" target="_blank" class="btn btn-outline btn-sm" style="flex:1;" rel="noopener">Instagram</a>
+                <a href="https://youtube.com" target="_blank" class="btn btn-outline btn-sm" style="flex:1;" rel="noopener">YouTube</a>
+                <a href="https://linkedin.com" target="_blank" class="btn btn-outline btn-sm" style="flex:1;" rel="noopener">LinkedIn</a>
+              </div>
+            </div>
+
+            <div class="card card-body" style="background:var(--bg-canvas);">
+              <h4 style="font-size:14px; color:var(--navy-dark); margin-bottom:6px;">Çalışma Merkezleri</h4>
+              <p style="font-size:12.5px; color:var(--text-muted); margin:0; line-height:1.5;">
+                Kadıköy / İstanbul & Çankaya / Ankara<br>
+                Operasyonel etkinlikler Türkiye genelinde ve uluslararası ağlarda yürütülmektedir.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SSS (Sıkça Sorulan Sorular) -->
+        <div style="margin-top:60px;">
+          <div class="section-header" style="margin-bottom:28px;">
+            <span class="section-badge">Rehber</span>
+            <h2 class="section-title">Sıkça Sorulan Sorular</h2>
+          </div>
+
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+            <div class="card card-body">
+              <h4 style="font-size:14.5px; color:var(--navy-dark); margin-bottom:6px;">Konser biletlerini nereden alabilirim?</h4>
+              <p style="font-size:13px; color:var(--text-muted); margin:0; line-height:1.5;">
+                Etkinlikler sayfamızdan ilgili konserin "Kayıt & Bilet" butonuna tıklayarak anlaşmalı biletleme platformu veya ücretsiz kayıt sistemimiz üzerinden yerinizi ayırtabilirsiniz.
+              </p>
+            </div>
+
+            <div class="card card-body">
+              <h4 style="font-size:14.5px; color:var(--navy-dark); margin-bottom:6px;">Besteciler eserlerini nasıl sunabilir?</h4>
+              <p style="font-size:13px; color:var(--text-muted); margin:0; line-height:1.5;">
+                Sanat Danışma Kurulumuzun periyodik açık çağrı dönemlerinde partitür ve ses simülasyonlarınızı sanat@cagdasmuzik.org adresine iletebilirsiniz.
+              </p>
+            </div>
+
+            <div class="card card-body">
+              <h4 style="font-size:14.5px; color:var(--navy-dark); margin-bottom:6px;">Gönüllü çalışma şartları nelerdir?</h4>
+              <p style="font-size:13px; color:var(--text-muted); margin:0; line-height:1.5;">
+                Haftalık 3 ila 10 saat arasında zaman ayırabilen, kültür-sanat alanına ilgi duyan tüm üniversite öğrencileri ve mezunları 8 birimimizden birine başvurabilir.
+              </p>
+            </div>
+
+            <div class="card card-body">
+              <h4 style="font-size:14.5px; color:var(--navy-dark); margin-bottom:6px;">Dijital Arşivdeki kayıtları kullanabilir miyim?</h4>
+              <p style="font-size:13px; color:var(--text-muted); margin:0; line-height:1.5;">
+                Arşivimiz eğitim ve araştırma amacıyla herkese açıktır. Akademik atıf ve telif kuralları çerçevesinde kaynak gösterilerek yararlanılabilir.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="padding:0;">
+        <div>&copy; 2025–2026 Çağdaş Müzik Platformu. Tüm hakları saklıdır.</div>
+        <div><a href="index.html" style="color:#94A3B8;">Ana Sayfa</a> · <a href="kurumsal.html" style="color:#94A3B8;">Kurumsal</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/bootstrap-data.js"></script>
+  <script src="assets/js/store.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

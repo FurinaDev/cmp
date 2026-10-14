@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gönüllümüz Ol (Katılın) — Çağdaş Müzik Platformu</title>
+  <link rel="icon" type="image/png" href="assets/images/logo-navy.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <span class="top-bar-tag">Açık Çağrı</span>
+        <span>Çağdaş Müzik Platformu 2025–2026 Gönüllü Çalışma Grubu Başvuruları</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="admin/index.html" class="top-bar-link">Yönetim</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/images/logo-navy.png" alt="Çağdaş Müzik Platformu Logo">
+        <div class="brand-text">
+          <span class="brand-title">Çağdaş Müzik Platformu</span>
+          <span class="brand-subtitle">Bağımsız Kültür-Sanat Girişimi</span>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <div class="nav-item">
+          <a href="kurumsal.html" class="nav-link">
+            Kurumsal
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </a>
+          <div class="dropdown-menu">
+            <a href="kurumsal.html" class="dropdown-link"><span class="dropdown-link-title">Hakkımızda</span><span class="dropdown-link-desc">Platformun tanımı ve faaliyet alanları</span></a>
+            <a href="baskan.html" class="dropdown-link"><span class="dropdown-link-title">Ön Söz (Başkandan)</span><span class="dropdown-link-desc">Kuruluş felsefesi ve çağdaş vizyon</span></a>
+            <a href="degerlerimiz.html" class="dropdown-link"><span class="dropdown-link-title">Değerlerimiz</span><span class="dropdown-link-desc">12 temel etik ve kurumsal ilkemiz</span></a>
+            <a href="vizyon-misyon.html" class="dropdown-link"><span class="dropdown-link-title">Vizyon & Misyon</span><span class="dropdown-link-desc">Gelecek hedeflerimiz ve stratejimiz</span></a>
+          </div>
+        </div>
+        <div class="nav-item"><a href="ekibimiz.html" class="nav-link">Ekibimiz & Sanat Kurulu</a></div>
+        <div class="nav-item"><a href="etkinlikler.html" class="nav-link">Etkinlikler & Konserler</a></div>
+        <div class="nav-item"><a href="arsiv.html" class="nav-link">Dijital Arşiv</a></div>
+        <div class="nav-item"><a href="blog.html" class="nav-link">Blog & Düşünce</a></div>
+        <div class="nav-item"><a href="destekciler.html" class="nav-link">Destekçilerimiz</a></div>
+        <div class="nav-item"><a href="iletisim.html" class="nav-link">İletişim</a></div>
+      </nav>
+
+      <div class="header-actions">
+        <a href="gonullu.html" class="btn btn-accent btn-sm">Gönüllümüz Ol</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div style="background:#FFFFFF; border-bottom:1px solid var(--border-subtle); padding:40px 0;">
+      <div class="container">
+        <span class="section-badge orange">Katılım & İstihdam</span>
+        <h1 style="color:var(--navy-dark); font-size:2.1rem; margin-bottom:8px;">Gönüllümüz Ol (Ekibe Katıl)</h1>
+        <p style="color:var(--text-muted); font-size:15px; max-width:760px; margin:0;">
+          Çağdaş Müzik Platformu’nun 8 uzmanlık biriminde yer alarak kültür-sanat alanında deneyim kazanmak, ağ kurmak ve bağımsız müzik ekosistemini birlikte büyütmek için başvurunuzu yapabilirsiniz.
+        </p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container" style="max-width:880px;">
+        <div id="volunteer-alert" style="display:none; padding:18px; border-radius:6px; margin-bottom:24px; font-size:14px; background:#ECFDF5; border:1px solid #A7F3D0; color:#065F46;"></div>
+
+        <div class="card card-body" style="padding:36px; box-shadow:var(--shadow-md);">
+          <div style="margin-bottom:24px; border-bottom:1px solid var(--border-subtle); padding-bottom:16px;">
+            <h2 style="font-size:18px; color:var(--navy-dark); margin-bottom:4px;">Gönüllü Başvuru Formu</h2>
+            <p style="font-size:12.5px; color:var(--text-muted); margin:0;">Lütfen tüm bilgileri eksiksiz ve güncel olarak doldurunuz.</p>
+          </div>
+
+          <form id="volunteer-form">
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+              <div class="form-group">
+                <label class="form-label" for="fullName">Ad Soyad <span class="req">*</span></label>
+                <input type="text" id="fullName" name="fullName" class="form-control" placeholder="Örn: Efe Yılmaz" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="email">E-posta Adresi <span class="req">*</span></label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Örn: isim@alanadi.com" required>
+              </div>
+            </div>
+
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+              <div class="form-group">
+                <label class="form-label" for="phone">Telefon Numarası <span class="req">*</span></label>
+                <input type="tel" id="phone" name="phone" class="form-control" placeholder="Örn: 05xx xxx xx xx" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="city">Bulunduğunuz Şehir <span class="req">*</span></label>
+                <input type="text" id="city" name="city" class="form-control" placeholder="Örn: İstanbul / Ankara / İzmir" required>
+              </div>
+            </div>
+
+            <div style="display:grid; grid-template-columns:1.2fr 0.8fr; gap:16px;">
+              <div class="form-group">
+                <label class="form-label" for="education">Üniversite & Bölüm / Meslek</label>
+                <input type="text" id="education" name="education" class="form-control" placeholder="Örn: Mimar Sinan Güzel Sanatlar Üni. - Müzikoloji">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="weeklyHours">Haftalık Ayırabileceğiniz Zaman</label>
+                <select id="weeklyHours" name="weeklyHours" class="form-control">
+                  <option value="3-5 Saat">Haftada 3 – 5 Saat</option>
+                  <option value="5-10 Saat" selected>Haftada 5 – 10 Saat</option>
+                  <option value="10+ Saat">Haftada 10+ Saat</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="unit">Başvurulan / İlgi Duyulan Birim <span class="req">*</span></label>
+              <select id="unit" name="unit" class="form-control" required>
+                <option value="">Lütfen Birim Seçiniz</option>
+                <option value="İdari Koordinasyon">İdari Koordinasyon</option>
+                <option value="Sanat Danışma Kurulu">Sanat Danışma Kurulu (Koordinasyon / Asistanlık)</option>
+                <option value="Proje Yönetimi ve Kaynak Geliştirme">Proje Yönetimi ve Kaynak Geliştirme (AB Hibeleri / Fonlar)</option>
+                <option value="Kurumsal İletişim">Kurumsal İletişim (Sosyal Medya, Basın, Tasarım, Editörlük)</option>
+                <option value="Hukuk & Mevzuat">Hukuk & Mevzuat (Telif ve Fikri Haklar)</option>
+                <option value="Dijital & Teknoloji">Dijital & Teknoloji (Web & Yazılım Geliştirme)</option>
+                <option value="İnsan Kaynakları">İnsan Kaynakları (Gönüllü Yönetimi & Oryantasyon)</option>
+                <option value="İş Geliştirme ve Stratejik Ortaklıklar">İş Geliştirme ve Stratejik Ortaklıklar (Sponsorluk)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="linkedin">LinkedIn Profili veya Portfolyo Bağlantısı</label>
+              <input type="url" id="linkedin" name="linkedin" class="form-control" placeholder="https://linkedin.com/in/kullaniciadi">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="experience">Yetkinlikler ve Deneyim Özeti</label>
+              <textarea id="experience" name="experience" class="form-control" rows="3" placeholder="Kısaca eğitim geçmişiniz, daha önce yer aldığınız projeler veya birimle ilgili özel becerileriniz..."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="motivation">Motivasyon ve Ön Yazı <span class="req">*</span></label>
+              <textarea id="motivation" name="motivation" class="form-control" rows="4" placeholder="Neden Çağdaş Müzik Platformu'na katılmak istiyorsunuz? Platforma nasıl bir katkı sağlayabilirsiniz?" required></textarea>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" id="kvkk" name="kvkk" class="form-check-input" required>
+              <label for="kvkk" class="form-check-label">
+                Kişisel verilerimin Çağdaş Müzik Platformu İnsan Kaynakları süreçleri kapsamında değerlendirilmesini ve iletişim amacıyla işlenmesini onaylıyorum.
+              </label>
+            </div>
+
+            <div style="margin-top:24px;">
+              <button type="submit" class="btn btn-accent btn-lg" style="width:100%;">
+                Başvuruyu Gönder &rarr;
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="padding:0;">
+        <div>&copy; 2025–2026 Çağdaş Müzik Platformu. Tüm hakları saklıdır.</div>
+        <div><a href="index.html" style="color:#94A3B8;">Ana Sayfa</a> · <a href="kurumsal.html" style="color:#94A3B8;">Kurumsal</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/bootstrap-data.js"></script>
+  <script src="assets/js/store.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etkinlikler & Konserler — Çağdaş Müzik Platformu</title>
+  <link rel="icon" type="image/png" href="assets/images/logo-navy.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <span class="top-bar-tag">Program</span>
+        <span>2025–2026 Sezonu Konser, Festival ve Eğitim Programı</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="gonullu.html" class="top-bar-link">Ekibe Katıl</a>
+        <a href="admin/index.html" class="top-bar-link">Yönetim</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/images/logo-navy.png" alt="Çağdaş Müzik Platformu Logo">
+        <div class="brand-text">
+          <span class="brand-title">Çağdaş Müzik Platformu</span>
+          <span class="brand-subtitle">Bağımsız Kültür-Sanat Girişimi</span>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <div class="nav-item">
+          <a href="kurumsal.html" class="nav-link">
+            Kurumsal
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </a>
+          <div class="dropdown-menu">
+            <a href="kurumsal.html" class="dropdown-link"><span class="dropdown-link-title">Hakkımızda</span><span class="dropdown-link-desc">Platformun tanımı ve faaliyet alanları</span></a>
+            <a href="baskan.html" class="dropdown-link"><span class="dropdown-link-title">Ön Söz (Başkandan)</span><span class="dropdown-link-desc">Kuruluş felsefesi ve çağdaş vizyon</span></a>
+            <a href="degerlerimiz.html" class="dropdown-link"><span class="dropdown-link-title">Değerlerimiz</span><span class="dropdown-link-desc">12 temel etik ve kurumsal ilkemiz</span></a>
+            <a href="vizyon-misyon.html" class="dropdown-link"><span class="dropdown-link-title">Vizyon & Misyon</span><span class="dropdown-link-desc">Gelecek hedeflerimiz ve stratejimiz</span></a>
+          </div>
+        </div>
+        <div class="nav-item"><a href="ekibimiz.html" class="nav-link">Ekibimiz & Sanat Kurulu</a></div>
+        <div class="nav-item"><a href="etkinlikler.html" class="nav-link active">Etkinlikler & Konserler</a></div>
+        <div class="nav-item"><a href="arsiv.html" class="nav-link">Dijital Arşiv</a></div>
+        <div class="nav-item"><a href="blog.html" class="nav-link">Blog & Düşünce</a></div>
+        <div class="nav-item"><a href="destekciler.html" class="nav-link">Destekçilerimiz</a></div>
+        <div class="nav-item"><a href="iletisim.html" class="nav-link">İletişim</a></div>
+      </nav>
+
+      <div class="header-actions">
+        <a href="gonullu.html" class="btn btn-accent btn-sm">Gönüllümüz Ol</a>
+        <button class="mobile-menu-btn" aria-label="Menü">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div style="background:#FFFFFF; border-bottom:1px solid var(--border-subtle); padding:40px 0;">
+      <div class="container">
+        <span class="section-badge">Etkinlik Takvimi</span>
+        <h1 style="color:var(--navy-dark); font-size:2.1rem; margin-bottom:8px;">Etkinlikler & Konserler</h1>
+        <p style="color:var(--text-muted); font-size:15px; max-width:720px; margin:0;">
+          Çağdaş müzik prömiyerleri, oda müziği konserleri, uluslararası festivaller, masterclass atölyeleri ve akademik paneller.
+        </p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <!-- Filtre ve Kontrol Çubuğu -->
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; margin-bottom:28px;">
+          <div class="team-tabs" style="margin-bottom:0; justify-content:flex-start;">
+            <button class="team-tab-btn event-filter-btn active" data-type="all">Tüm Etkinlikler</button>
+            <button class="team-tab-btn event-filter-btn" data-type="Konser">Konserler</button>
+            <button class="team-tab-btn event-filter-btn" data-type="Festival">Festivaller</button>
+            <button class="team-tab-btn event-filter-btn" data-type="Masterclass">Masterclass</button>
+            <button class="team-tab-btn event-filter-btn" data-type="Panel">Paneller</button>
+            <button class="team-tab-btn event-filter-btn" data-type="Seminer">Seminerler</button>
+          </div>
+
+          <div style="display:flex; align-items:center; gap:8px;">
+            <label for="event-status-select" style="font-size:12.5px; font-weight:600; color:var(--text-muted);">Zaman:</label>
+            <select id="event-status-select" class="form-control" style="width:auto; padding:6px 12px; font-size:12.5px;">
+              <option value="all">Tümü (Gelecek & Geçmiş)</option>
+              <option value="upcoming" selected>Yaklaşan Etkinlikler</option>
+              <option value="past">Geçmiş Etkinlikler Arşivi</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Etkinlikler Grid -->
+        <div class="events-grid" id="events-page-container">
+          <!-- JS dinamik dolduracak -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="padding:0;">
+        <div>&copy; 2025–2026 Çağdaş Müzik Platformu. Tüm hakları saklıdır.</div>
+        <div><a href="index.html" style="color:#94A3B8;">Ana Sayfa</a> · <a href="kurumsal.html" style="color:#94A3B8;">Kurumsal</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/bootstrap-data.js"></script>
+  <script src="assets/js/store.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

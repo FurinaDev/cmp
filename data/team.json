@@ -1,0 +1,465 @@
+{
+  "total": 40,
+  "units": [
+    {
+      "key": "idari",
+      "name": "İdari Koordinasyon",
+      "count": 2,
+      "description": "Platformun genel stratejik idaresi, mali yönetimi ve operasyonel koordinasyonunu yürüten birim."
+    },
+    {
+      "key": "sanat_kurulu",
+      "name": "Sanat Danışma Kurulu",
+      "count": 7,
+      "description": "Sanatsal vizyon, yeni eser siparişleri, repertuvar politikası ve icra kalitesini denetleyen bağımsız kurul."
+    },
+    {
+      "key": "proje_kaynak",
+      "name": "Proje Yönetimi ve Kaynak Geliştirme",
+      "count": 6,
+      "description": "Uluslararası ve yerel hibeler, fon arayışları, proje yazımı ve saha operasyonlarını yürüten uzman birim."
+    },
+    {
+      "key": "kurumsal_iletisim",
+      "name": "Kurumsal İletişim",
+      "count": 18,
+      "description": "Basınla ilişkiler, sosyal medya yönetimi, görsel iletişim, video prodüksiyon ve içerik kürasyonunu yürüten geniş ekip."
+    },
+    {
+      "key": "hukuk_mevzuat",
+      "name": "Hukuk & Mevzuat",
+      "count": 2,
+      "description": "FSEK, uluslararası telif hakları, sözleşmeler ve mevzuat uyumluluğunu yöneten hukuk ekibi."
+    },
+    {
+      "key": "dijital_teknoloji",
+      "name": "Dijital & Teknoloji",
+      "count": 1,
+      "description": "Açık dijital platform mimarisi, nota arşiv veritabanı ve web altyapısını yöneten teknoloji birimi."
+    },
+    {
+      "key": "insan_kaynaklari",
+      "name": "İnsan Kaynakları",
+      "count": 3,
+      "description": "Gönüllü koordinasyonu, yetenek oryantasyonu ve iç iletişim dinamiklerini yürüten birim."
+    },
+    {
+      "key": "is_gelistirme",
+      "name": "İş Geliştirme ve Stratejik Ortaklıklar",
+      "count": 2,
+      "description": "Kültür kurumları, yerel yönetimler ve kurumsal sponsorluklarla ortaklıklar kuran birim."
+    }
+  ],
+  "members": [
+    {
+      "id": "idari-1",
+      "name": "Dr. Deniz Arslan",
+      "unit": "İdari Koordinasyon",
+      "unitKey": "idari",
+      "title": "Genel Koordinatör",
+      "linkedin": "https://linkedin.com/in/denizarslan-cmp",
+      "bio": "Kültür yöneticisi ve müzik araştırmacısı. Uzun yıllar uluslararası müzik festivallerinde direktörlük yapmış, bağımsız sanat inisiyatiflerinin kurumsal modelleri üzerine doktorasını tamamlamıştır.",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "idari-2",
+      "name": "Zeynep Çelik",
+      "unit": "İdari Koordinasyon",
+      "unitKey": "idari",
+      "title": "İdari ve Mali Koordinatör",
+      "linkedin": "https://linkedin.com/in/zeynepcelik-cmp",
+      "bio": "Kültür kurumlarında bütçe yönetimi, operasyonel süreçler ve sivil toplum mevzuatı konularında 10 yılı aşkın deneyime sahiptir. Platformun genel işleyiş ve kaynak dağıtım süreçlerini yönetmektedir.",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "sanat-1",
+      "name": "Prof. Kerem Yalçın",
+      "unit": "Sanat Danışma Kurulu",
+      "unitKey": "sanat_kurulu",
+      "title": "Sanat Kurulu Başkanı & Besteci",
+      "linkedin": "https://linkedin.com/in/keremyalcin-cmp",
+      "bio": "Uluslararası alanda ödüllü besteci ve akademisyen. Eserleri Avrupa ve Amerika'nın önde gelen çağdaş müzik festivallerinde seslendirilmiş, Türkiye'nin çağdaş kompozisyon ekolüne yön vermiştir.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "sanat-2",
+      "name": "Doç. Dr. Ayşe Tunç",
+      "unit": "Sanat Danışma Kurulu",
+      "unitKey": "sanat_kurulu",
+      "title": "Müzikolog & Kuramcı",
+      "linkedin": "https://linkedin.com/in/aysetunc-cmp",
+      "bio": "20. ve 21. yüzyıl müzik estetiği, mikrotonalite ve Türk müziğinde çağdaşlaşma hareketleri üzerine kitap ve makaleler yayınlamıştır. Platformun kuramsal yayın politikalarını koordine eder.",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "sanat-3",
+      "name": "Emre Karadağ",
+      "unit": "Sanat Danışma Kurulu",
+      "unitKey": "sanat_kurulu",
+      "title": "Orkestra Şefi & Danışman",
+      "linkedin": "https://linkedin.com/in/emrekaradag-cmp",
+      "bio": "Çağdaş müzik repertuvarı uzmanı şef. Çok sayıda genç bestecinin eserinin dünya prömiyerini yönetmiş, uluslararası orkestralarda konuk şef olarak sahne almıştır.",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "sanat-4",
+      "name": "Elif Soylu",
+      "unit": "Sanat Danışma Kurulu",
+      "unitKey": "sanat_kurulu",
+      "title": "Viyolonsel Sanatçısı & İcracı Temsilcisi",
+      "linkedin": "https://linkedin.com/in/elifsoylu-cmp",
+      "bio": "Genişletilmiş viyolonsel teknikleri ve çağdaş oda müziğinde uzmanlaşmış solist. Yeni müzik topluluklarında aktif icracı olarak yer almakta ve genç müzisyen haklarını savunmaktadır.",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "sanat-5",
+      "name": "Caner Doğan",
+      "unit": "Sanat Danışma Kurulu",
+      "unitKey": "sanat_kurulu",
+      "title": "Elektroakustik Müzik Direktörü & Ses Tasarımcısı",
+      "linkedin": "https://linkedin.com/in/canerdogan-cmp",
+      "bio": "Elektronik müzik prodüktörü, kodlama ile ses üretimi ve mekânsal ses sistemleri araştırmacısı. Multidisipliner enstalasyonlar ve karma medya projelerinde danışmanlık yapmaktadır.",
+      "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "sanat-6",
+      "name": "Selin Demir",
+      "unit": "Sanat Danışma Kurulu",
+      "unitKey": "sanat_kurulu",
+      "title": "Besteci & Repertuvar Danışmanı",
+      "linkedin": "https://linkedin.com/in/selindemir-cmp",
+      "bio": "Modal armoniler ve çağdaş tını kompozisyonları üzerine odaklanan genç kuşak besteci. Genç bestecilere mentorluk vermekte ve sipariş eser projelerini takip etmektedir.",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "sanat-7",
+      "name": "Dr. Mehmet Bilgin",
+      "unit": "Sanat Danışma Kurulu",
+      "unitKey": "sanat_kurulu",
+      "title": "Etnomüzikolog & Çağdaş Müzik Tarihçisi",
+      "linkedin": "https://linkedin.com/in/mehmetbilgin-cmp",
+      "bio": "Anadolu halk çalgılarının çağdaş akustik kompozisyonlara entegrasyonu üzerine saha araştırmaları yürüten akademisyen. Arşiv ve araştırma komisyonuna liderlik etmektedir.",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "proje-1",
+      "name": "Berk Aksoy",
+      "unit": "Proje Yönetimi ve Kaynak Geliştirme",
+      "unitKey": "proje_kaynak",
+      "title": "Proje Yönetimi Direktörü",
+      "linkedin": "https://linkedin.com/in/berkaksoy-cmp",
+      "bio": "Kültür ve sanat sektöründe büyük ölçekli hibe projeleri yürütmüş PMP sertifikalı proje yöneticisi. Platformun dönemsel takvimlerini ve bütçe planlamalarını idare eder.",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "proje-2",
+      "name": "Gamze Öztürk",
+      "unit": "Proje Yönetimi ve Kaynak Geliştirme",
+      "unitKey": "proje_kaynak",
+      "title": "AB Projeleri & Horizon Sorumlusu",
+      "linkedin": "https://linkedin.com/in/gamzeozturk-cmp",
+      "bio": "Creative Europe ve Erasmus+ Gençlik projelerinde 8 yıllık yazım ve yürütme tecrübesine sahip uluslararası iş birlikleri uzmanıdır.",
+      "avatar": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "proje-3",
+      "name": "Tolga Erdem",
+      "unit": "Proje Yönetimi ve Kaynak Geliştirme",
+      "unitKey": "proje_kaynak",
+      "title": "Hibe ve Fon Geliştirme Uzmanı",
+      "linkedin": "https://linkedin.com/in/tolgaerdem-cmp",
+      "bio": "Büyükelçilik fonları, sivil toplum hibe programları ve ulusal kalkınma ajansları başvurularının hazırlanması konusunda uzmandır.",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "proje-4",
+      "name": "Nilüfer Kaya",
+      "unit": "Proje Yönetimi ve Kaynak Geliştirme",
+      "unitKey": "proje_kaynak",
+      "title": "Kültür Fonları Koordinatörü",
+      "linkedin": "https://linkedin.com/in/niluferkaya-cmp",
+      "bio": "Vakıf bağışları, sanat kuluçka merkezleri ve kültürel mikro-hibelerin yönetiminde aktif rol alan kaynak geliştiricidir.",
+      "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "proje-5",
+      "name": "Barış Aydın",
+      "unit": "Proje Yönetimi ve Kaynak Geliştirme",
+      "unitKey": "proje_kaynak",
+      "title": "Proje Raporlama ve Etki Analizi Uzmanı",
+      "linkedin": "https://linkedin.com/in/barisaydin-cmp",
+      "bio": "Kültür projelerinde sosyal etki ölçümleme ve paydaş raporlaması konularında deneyimli araştırmacı. Platformun yıllık etki raporlarını hazırlar.",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "proje-6",
+      "name": "Ceren Varol",
+      "unit": "Proje Yönetimi ve Kaynak Geliştirme",
+      "unitKey": "proje_kaynak",
+      "title": "Saha ve Etkinlik Operasyon Sorumlusu",
+      "linkedin": "https://linkedin.com/in/cerenvarol-cmp",
+      "bio": "Konser salonları lojistiği, sanatçı konaklama ve sahne arkası koordinasyonunda dinamik deneyime sahip saha sorumlusudur.",
+      "avatar": "https://images.unsplash.com/photo-1534751516642-a171ed282cb8?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-1",
+      "name": "Seda Gürbüz",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "Kurumsal İletişim Direktörü",
+      "linkedin": "https://linkedin.com/in/sedagurbuz-cmp",
+      "bio": "Kültür-sanat alanında 12 yıllık stratejik iletişim, marka yönetimi ve kriz iletişimi deneyimine sahip iletişim uzmanı.",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-2",
+      "name": "Mert Yılmaz",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "Basın Danışmanı ve Medya İlişkileri Sorumlusu",
+      "linkedin": "https://linkedin.com/in/mertyilmaz-cmp",
+      "bio": "Ulusal gazeteler, kültür-sanat dergileri ve televizyon kanallarıyla güçlü iletişim ağı bulunan tecrübeli basın danışmanı.",
+      "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-3",
+      "name": "Büşra Kurt",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "Sosyal Medya Koordinatörü",
+      "linkedin": "https://linkedin.com/in/busrakurt-cmp",
+      "bio": "Instagram, X ve LinkedIn içerik planlamasını yürüten; çağdaş müziği yeni nesil görsel dille anlatan dijital stratejist.",
+      "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-4",
+      "name": "Kaan Erez",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "Baş Görsel İletişim Tasarımcısı",
+      "linkedin": "https://linkedin.com/in/kaanerez-cmp",
+      "bio": "Platformun kurumsal kimlik rehberini ve afiş estetiğini tasarlayan; tipografi ve minimal tasarım alanında uzman grafik sanatçısı.",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-5",
+      "name": "İpek Güner",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "Dijital İçerik Üreticisi",
+      "linkedin": "https://linkedin.com/in/ipekguner-cmp",
+      "bio": "Kısa video hikâyeleri, sanatçı röportajları ve konser kulisi kesitleriyle genç kitlelere hitap eden dinamik içerikler üretir.",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-6",
+      "name": "Ece Çetin",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "Metin Yazarı & Kültür Çevirmeni",
+      "linkedin": "https://linkedin.com/in/ececetin-cmp",
+      "bio": "Sanatçı biyografileri, konser program kitapçıkları ve uluslararası basın metinlerinin Türkçe-İngilizce yazımını yönetir.",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-7",
+      "name": "Oğuzhan Kaya",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "Video Prodüksiyon ve Canlı Yayın Yönetmeni",
+      "linkedin": "https://linkedin.com/in/oguzhankaya-cmp",
+      "bio": "Konserlerin çok kameralı 4K canlı yayınlarını ve tanıtım belgesellerini yöneten sinema-TV mezunu prodüktör.",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-8",
+      "name": "Duygu Tekin",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "Fotoğraf ve Görsel Arşiv Uzmanı",
+      "linkedin": "https://linkedin.com/in/duygutekin-cmp",
+      "bio": "Sahne sanatları fotoğrafçılığı ve basılı katalog arşivleme alanında uzmanlaşmış belgesel fotoğrafçısı.",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-9",
+      "name": "Alperen Polat",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "Basın Bülteni ve Yayın Editörü",
+      "linkedin": "https://linkedin.com/in/alperenpolat-cmp",
+      "bio": "Gazetecilik geçmişi olan; haftalık bültenleri, basın kitlerini ve platform bildirilerini titizlikle redakte eden editör.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-10",
+      "name": "Melis Şen",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "İletişim Stratejisti",
+      "linkedin": "https://linkedin.com/in/melissen-cmp",
+      "bio": "Kültür kurumlarının hedef kitle analizleri ve uzun vadeli algı haritalandırması üzerine çalışan stratejist.",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-11",
+      "name": "Burak Şimşek",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "Topluluk Yöneticisi (Community Manager)",
+      "linkedin": "https://linkedin.com/in/buraksimsek-cmp",
+      "bio": "Platformun izleyici kulübü, üniversite temsilcileri ağı ve online tartışma gruplarının etkileşimini yürütür.",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-12",
+      "name": "Aslı Karahan",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "Grafik Tasarımcı (Poster & Baskı)",
+      "linkedin": "https://linkedin.com/in/aslikarahan-cmp",
+      "bio": "Konser afişleri, broşürler ve basılı sergi materyallerinin editoryal tasarımında çalışan görsel iletişimci.",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-13",
+      "name": "Umut Akın",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "Hareketli Grafik ve Animasyon Uzmanı",
+      "linkedin": "https://linkedin.com/in/umutakin-cmp",
+      "bio": "Konser salonu dijital ekranları, teaser animasyonları ve festival jenerikleri üreten motion designer.",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-14",
+      "name": "Derya Yıldız",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "Müzikoloji İçerik Editörü",
+      "linkedin": "https://linkedin.com/in/deryayildiz-cmp",
+      "bio": "Konser öncesi dinleyici kılavuzları ve besteci röportajlarıyla çağdaş müziğin pedagojik boyutunu ele alan müzikolog.",
+      "avatar": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-15",
+      "name": "Onur Keskin",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "Podcast ve Ses Prodüksiyon Sorumlusu",
+      "linkedin": "https://linkedin.com/in/onurkeskin-cmp",
+      "bio": "'Yeni Tınılar' podcast serisinin kayıt, kurgu ve miksaj aşamalarını üstlenen ses mühendisi.",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-16",
+      "name": "Pınar Koç",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "Dijital Pazarlama ve SEO Uzmanı",
+      "linkedin": "https://linkedin.com/in/pinarkoc-cmp",
+      "bio": "Platform web sitesinin arama motoru görünürlüğü, web analitiği ve biletleme kanalı performansını optimize eder.",
+      "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-17",
+      "name": "Tuğçe Arslan",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "Etkinlik Fotoğrafçısı & Belgeselci",
+      "linkedin": "https://linkedin.com/in/tugcearslan-cmp",
+      "bio": "Sahne önü ve provası anlarını fotoğraflayan, sanatçı portrelerini ölümsüzleştiren yaratıcı fotoğrafçı.",
+      "avatar": "https://images.unsplash.com/photo-1534751516642-a171ed282cb8?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "iletisim-18",
+      "name": "Serkan Demirbaş",
+      "unit": "Kurumsal İletişim",
+      "unitKey": "kurumsal_iletisim",
+      "title": "Medya Sponsorlukları Sorumlusu",
+      "linkedin": "https://linkedin.com/in/serkandemirbas-cmp",
+      "bio": "Radyo, gazete ve dijital mecralarla kurumsal basın ve tanıtım sponsorlukları müzakerelerini yürütür.",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "hukuk-1",
+      "name": "Av. Yasemin Özer",
+      "unit": "Hukuk & Mevzuat",
+      "unitKey": "hukuk_mevzuat",
+      "title": "Baş Hukuk Müşaviri & Kültür Hukukçusu",
+      "linkedin": "https://linkedin.com/in/yaseminozer-cmp",
+      "bio": "Fikri ve sanat eserleri kanunu, uluslararası telif birlikleri (MESAM, MSG) mevzuatı ve sanatçı sözleşmelerinde 14 yıllık uzmanlığa sahiptir.",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "hukuk-2",
+      "name": "Av. Sinan Yaman",
+      "unit": "Hukuk & Mevzuat",
+      "unitKey": "hukuk_mevzuat",
+      "title": "Telif Hakları, Sözleşmeler ve KVKK Uzmanı",
+      "linkedin": "https://linkedin.com/in/sinanyaman-cmp",
+      "bio": "Dijital mecralarda eser dağıtımı, senkronizasyon sözleşmeleri, bağış protokolleri ve KVKK uyumluluğu süreçlerini denetler.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "dijital-1",
+      "name": "Kutay Ergün",
+      "unit": "Dijital & Teknoloji",
+      "unitKey": "dijital_teknoloji",
+      "title": "Yazılım ve Dijital Platformlar Mimarı",
+      "linkedin": "https://linkedin.com/in/kutayergun-cmp",
+      "bio": "Platformun açık kaynaklı dijital portalını, nota arşiv veritabanını, başvuru sistemlerini ve performans optimizasyonunu tasarlayan tam donanımlı yazılım mimarıdır.",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "ik-1",
+      "name": "Hande Savaş",
+      "unit": "İnsan Kaynakları",
+      "unitKey": "insan_kaynaklari",
+      "title": "İnsan Kaynakları ve Gönüllü Yönetimi Direktörü",
+      "linkedin": "https://linkedin.com/in/handesavas-cmp",
+      "bio": "Sivil toplum kuruluşlarında gönüllü motivasyonu, liyakat odaklı yetenek havuzu ve takım dinamikleri tasarımı konusunda uzman İK lideri.",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "ik-2",
+      "name": "Burcu Aktaş",
+      "unit": "İnsan Kaynakları",
+      "unitKey": "insan_kaynaklari",
+      "title": "Yetenek Edinimi ve Oryantasyon Uzmanı",
+      "linkedin": "https://linkedin.com/in/burcuaktas-cmp",
+      "bio": "Yeni katılan gönüllü ve çalışanların oryantasyon eğitimlerini, ekip içi uyum süreçlerini ve yetkinlik envanterini yönetir.",
+      "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "ik-3",
+      "name": "Cem Koral",
+      "unit": "İnsan Kaynakları",
+      "unitKey": "insan_kaynaklari",
+      "title": "Gönüllü İletişimi ve Eğitimi Sorumlusu",
+      "linkedin": "https://linkedin.com/in/cemkoral-cmp",
+      "bio": "40 kişilik geniş gönüllü ağının iç iletişimini, gelişim çalıştaylarını ve dönemsel motivasyon buluşmalarını organize eder.",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "is-1",
+      "name": "Hakan Tan",
+      "unit": "İş Geliştirme ve Stratejik Ortaklıklar",
+      "unitKey": "is_gelistirme",
+      "title": "Stratejik Ortaklıklar Direktörü",
+      "linkedin": "https://linkedin.com/in/hakantan-cmp",
+      "bio": "Kültür merkezleri, yabancı enstitüler, yerel yönetimler ve özel sektör ile sürdürülebilir iş birliği modelleri geliştiren iş geliştirme yöneticisi.",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "is-2",
+      "name": "Ebru Şahin",
+      "unit": "İş Geliştirme ve Stratejik Ortaklıklar",
+      "unitKey": "is_gelistirme",
+      "title": "Kurumsal Sponsorluk ve Filantropi Uzmanı",
+      "linkedin": "https://linkedin.com/in/ebrusahin-cmp",
+      "bio": "Özel sektörün kurumsal sosyal sorumluluk ve kültür fonlarını çağdaş sanat projelerine yönlendiren tecrübeli fon yöneticisi.",
+      "avatar": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=400&q=80"
+    }
+  ]
+}

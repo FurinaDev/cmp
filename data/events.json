@@ -1,0 +1,230 @@
+{
+  "total": 10,
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "Ses Manzaraları: Yeni Müzik Prömiyerleri",
+      "slug": "ses-manzaralari-yeni-muzik-promiyerleri",
+      "type": "Konser",
+      "category": "prömiyer",
+      "status": "upcoming",
+      "date": "2026-11-14",
+      "time": "20:00",
+      "venue": "Kadıköy Belediyesi Süreyya Operası",
+      "city": "İstanbul",
+      "price": "250 TL / Öğrenci 100 TL",
+      "ticketStatus": "Satışta",
+      "ticketUrl": "https://biletix.com/etkinlik/cmp-ses-manzaralari",
+      "poster": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&w=800&q=80",
+      "description": "Platformumuzun siparişi olan 3 genç bestecimizin yeni eserlerinin dünya prömiyerleri ve 20. yüzyıl başyapıtlarından oluşan özel bir seçki. Şef Emre Karadağ yönetiminde ÇMP Oda Orkestrası sahnede.",
+      "program": [
+        "Kerem Yalçın - Akdeniz Parıltıları (Dünya Prömiyeri)",
+        "Selin Demir - Sessizliğin Eşiğinde (Dünya Prömiyeri)",
+        "György Ligeti - Ramifications",
+        "İlhan Usmanbaş - Küçük Gece Müziği"
+      ]
+    },
+    {
+      "id": "evt-02",
+      "title": "İstanbul Çağdaş Müzik Günleri 2026",
+      "slug": "istanbul-cagdas-muzik-gunleri-2026",
+      "type": "Festival",
+      "category": "festival",
+      "status": "upcoming",
+      "date": "2026-12-04",
+      "endDate": "2026-12-07",
+      "time": "14:00 - 22:30",
+      "venue": "Borusan Müzik Evi & Zorlu PSM",
+      "city": "İstanbul",
+      "price": "Kombine 600 TL / Günlük 200 TL",
+      "ticketStatus": "Ön Satışta",
+      "ticketUrl": "https://passo.com.tr/etkinlik/cmp-istanbul-cagdas-muzik-gunleri",
+      "poster": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80",
+      "description": "Dört güne yayılan festivalde 12 konser, 4 ses enstalasyonu, 2 atölye ve uluslararası bestecilerin katıldığı paneller yer alıyor.",
+      "program": [
+        "4 Gün / 18 Besteci / 30 İcracı",
+        "Elektroakustik Gece Konserleri",
+        "Genç Besteciler Kürasyonu",
+        "Açık Ustalık Sınıfları"
+      ]
+    },
+    {
+      "id": "evt-03",
+      "title": "Genişletilmiş İcra Teknikleri ve Çağdaş Viyolonsel",
+      "slug": "genisletilmis-icra-teknikleri-ve-cagdas-viyolonsel",
+      "type": "Masterclass",
+      "category": "eğitim",
+      "status": "upcoming",
+      "date": "2026-11-21",
+      "time": "11:00 - 16:00",
+      "venue": "MSGSÜ Devlet Konservatuvarı Sedad Hakkı Eldem Oditoryumu",
+      "city": "İstanbul",
+      "price": "Katılımcı Ücretsiz (Kayıt Zorunlu)",
+      "ticketStatus": "Kayıt Açık",
+      "ticketUrl": "#basvuru-formu",
+      "poster": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80",
+      "description": "Viyolonsel sanatçısı Elif Soylu'nun yürütücülüğünde; çağdaş kompozisyonlarda yay baskısı, mikrotonal entonasyon, perküsif sesler ve elektronik pedallarla etkileşim teknikleri.",
+      "program": [
+        "Teorik İnceleme ve Partisyon Analizi",
+        "Bireysel İcra Koçluğu",
+        "Öğrenci Performans Değerlendirmesi"
+      ]
+    },
+    {
+      "id": "evt-04",
+      "title": "21. Yüzyılda Müziksel Telif ve Bağımsız Besteci Hakları",
+      "slug": "21-yuzyilda-muziksel-telif-ve-bagimsiz-besteci-haklari",
+      "type": "Panel",
+      "category": "tartışma",
+      "status": "upcoming",
+      "date": "2026-11-28",
+      "time": "18:30",
+      "venue": "Akbank Sanat Çok Amaçlı Salon",
+      "city": "İstanbul",
+      "price": "Giriş Serbesttir",
+      "ticketStatus": "Rezervasyon Gerekli",
+      "ticketUrl": "https://akbanksanat.com/etkinlik/cmp-telif-paneli",
+      "poster": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=800&q=80",
+      "description": "Fikri mülkiyet hukuku, dijital telif mekanizmaları ve genç bestecilerin haklarını koruma stratejilerinin tartışılacağı açık oturum.",
+      "program": [
+        "Moderatör: Dr. Deniz Arslan",
+        "Konuşmacı: Av. Yasemin Özer (Fikri Mülkiyet Hukuku)",
+        "Konuşmacı: Prof. Kerem Yalçın (Besteci Hakları)",
+        "Konuşmacı: Av. Sinan Yaman (Sözleşmeler ve Dijital Haklar)"
+      ]
+    },
+    {
+      "id": "evt-05",
+      "title": "Anadolu Mikrotonal Tınılar & Elektroakustik Dönüşüm",
+      "slug": "anadolu-mikrotonal-tinilar-elektroakustik-donusum",
+      "type": "Konser",
+      "category": "konser",
+      "status": "upcoming",
+      "date": "2026-12-18",
+      "time": "20:00",
+      "venue": "CSO Ada Ankara Mavi Salon",
+      "city": "Ankara",
+      "price": "180 TL / Öğrenci 80 TL",
+      "ticketStatus": "Satışta",
+      "ticketUrl": "https://biletinial.com/muzik/cmp-anadolu-mikrotonal",
+      "poster": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=800&q=80",
+      "description": "Geleneksel makam ses sistemlerinin çağdaş elektroakustik tınılarla harmanlandığı, özel sipariş 4 eserin Ankara prömiyeri.",
+      "program": [
+        "Dr. Mehmet Bilgin - Kemane ve Canlı Elektronik İçin Değişintiler",
+        "Caner Doğan - Rezonans Katmanları",
+        "Mahir Cetiz - Yeni Çalışma",
+        "Ahmet Adnan Saygun - Partita (Yeniden Yorum)"
+      ]
+    },
+    {
+      "id": "evt-06",
+      "title": "Algoritmik Kompozisyon ve Yapay Zekâda Ses Estetiği",
+      "slug": "algoritmik-kompozisyon-ve-yapay-zekada-ses-estetigi",
+      "type": "Seminer",
+      "category": "araştırma",
+      "status": "upcoming",
+      "date": "2026-12-22",
+      "time": "16:00",
+      "venue": "İTÜ MİAM Galeri",
+      "city": "İstanbul",
+      "price": "Ücretsiz",
+      "ticketStatus": "Kayıt Açık",
+      "ticketUrl": "#basvuru-formu",
+      "poster": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+      "description": "Üretken yapay zekâ modellerinin çağdaş müzik besteleme süreçlerine entegrasyonu, etik boyutlar ve yaratıcılık felsefesi.",
+      "program": [
+        "Sunum: Kutay Ergün & Caner Doğan",
+        "Canlı Kodlama (Live Coding) Demosu",
+        "Katılımcı Soru-Cevap Oturumu"
+      ]
+    },
+    {
+      "id": "evt-07",
+      "title": "Akdeniz Rüzgârları: İzmir Çağdaş Oda Topluluğu",
+      "slug": "akdeniz-ruzgarlari-izmir-cagdas-oda-toplulugu",
+      "type": "Konser",
+      "category": "konser",
+      "status": "past",
+      "date": "2026-09-18",
+      "time": "20:30",
+      "venue": "Ahmed Adnan Saygun Sanat Merkezi (AASSM)",
+      "city": "İzmir",
+      "price": "Bilet tükendi",
+      "ticketStatus": "Tamamlandı",
+      "ticketUrl": "",
+      "poster": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&w=800&q=80",
+      "description": "Ege'nin tınısal belleğini modern orkestrasyon diliyle yorumlayan bestecilerin bir araya geldiği unutulmaz bir gece.",
+      "program": [
+        "Necil Kâzım Akses - Yaylılar Dörtlüsü No: 1",
+        "Selin Demir - Körfezin Yankısı (İzmir Prömiyeri)",
+        "Luciano Berio - Folk Songs Seçkisi"
+      ]
+    },
+    {
+      "id": "evt-08",
+      "title": "Partisyon Okuma ve Çağdaş Orkestrasyon Çalıştayı",
+      "slug": "partisyon-okuma-ve-cagdas-orkestrasyon-calistayi",
+      "type": "Masterclass",
+      "category": "eğitim",
+      "status": "past",
+      "date": "2026-08-12",
+      "time": "10:00 - 17:00",
+      "venue": "Kadıköy ÇMP Sanat Salonu",
+      "city": "İstanbul",
+      "price": "Tamamlandı",
+      "ticketStatus": "Tamamlandı",
+      "ticketUrl": "",
+      "poster": "https://images.unsplash.com/photo-1507838153414-b4b713384a76?auto=format&fit=crop&w=800&q=80",
+      "description": "Genç bestecilerin hazırladıkları oda müziği partisyonlarının şef ve icracı gözüyle incelendiği pratik okuma çalıştayı.",
+      "program": [
+        "10 Bestecinin Eser İncelemesi",
+        "Enstrümantasyon Limitleri ve Çözümler",
+        "Kayıt Simülasyonu"
+      ]
+    },
+    {
+      "id": "evt-09",
+      "title": "Boşluk ve Tını: Vurmalı Çalgılar Gecesi",
+      "slug": "bosluk-ve-tini-vurmali-calgilar-gecesi",
+      "type": "Konser",
+      "category": "konser",
+      "status": "past",
+      "date": "2026-06-25",
+      "time": "20:30",
+      "venue": "Borusan Müzik Evi",
+      "city": "İstanbul",
+      "price": "Bilet tükendi",
+      "ticketStatus": "Tamamlandı",
+      "ticketUrl": "",
+      "poster": "https://images.unsplash.com/photo-1520523839898-507125cd53c1?auto=format&fit=crop&w=800&q=80",
+      "description": "Marimba, vibrafon ve zengin perküsyon setleriyle icra edilen ritmik ve tınısal çağdaş başyapıtlar.",
+      "program": [
+        "Iannis Xenakis - Rebonds A & B",
+        "Steve Reich - Music for Pieces of Wood",
+        "Kerem Yalçın - Maden ve Deri (Dünya Prömiyeri)"
+      ]
+    },
+    {
+      "id": "evt-10",
+      "title": "Kültür Politikaları ve Bağımsız Müzik İnisiyatifleri",
+      "slug": "kultur-politikalari-ve-bagimsiz-muzik-inisiyatifleri",
+      "type": "Panel",
+      "category": "tartışma",
+      "status": "past",
+      "date": "2026-05-14",
+      "time": "19:00",
+      "venue": "Goethe-Institut İstanbul Oditoryumu",
+      "city": "İstanbul",
+      "price": "Tamamlandı",
+      "ticketStatus": "Tamamlandı",
+      "ticketUrl": "",
+      "poster": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=800&q=80",
+      "description": "Avrupa ve Türkiye'deki sivil sanat inisiyatiflerinin sürdürülebilirlik modellerinin masaya yatırıldığı uluslararası panel.",
+      "program": [
+        "Almanya ve Türkiye Çağdaş Müzik Fonlama Kıyaslaması",
+        "Genç Bestecilerin İstihdam Sorunları",
+        "Kamu Desteklerinin Yeniden Yapılandırılması"
+      ]
+    }
+  ]
+}
